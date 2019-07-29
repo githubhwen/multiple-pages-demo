@@ -1,0 +1,42 @@
+* {
+  touch-action: pan-y;
+}
+
+input, textarea {
+  -webkit-user-select: auto!important;
+  -khtml-user-select: auto!important;
+  -moz-user-select: auto!important;
+  -ms-user-select: auto!important;
+  -o-user-select: auto!important;
+  user-select: auto!important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ant-input {
+  background-color: transparent!important;
+  border: 1px solid #fcd572!important;
+  color: #fcd572!important;
+  font-size: 18px!important;
+}
+
+.am-list-item .am-input-label {
+  font-size: 16px!important;
+}
+
+.am-list-item .am-input-control input {
+  font-size: 16px!important;
+  padding: 0 0;
+}
